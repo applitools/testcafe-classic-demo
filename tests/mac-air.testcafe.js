@@ -13,7 +13,7 @@ fixture`macbook-air`.page`https://www.apple.com/macbook-air/`.after(async () => 
 
 test('macbook-air', async t => {
   await eyes.open(t, 'macbook-air', 'macbook-air')
-  await eyes.scanPage() // activate snimations
+  await eyes.scrollPage() // activate snimations
   await new Promise(r => setTimeout(r, 5000)) // wait for first page animation to end
   await eyes.check('macbook-air', Target.window().fully())
 })

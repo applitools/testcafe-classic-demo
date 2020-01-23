@@ -12,7 +12,7 @@
   "author": "Daniel Schwartz <daniel.schwartz@applitools.com>",
   "license": "ISC",
   "dependencies": {
-    "@applitools/eyes-testcafe": "^2.0.0-beta.11",
+    "@applitools/eyes-testcafe": "beta",
     "testcafe": "^1.7.1"
   },
   "devDependencies": {
