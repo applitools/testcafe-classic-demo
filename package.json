@@ -1,0 +1,21 @@
+{
+  "name": "testcafe-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:safari:sl": "testcafe 'saucelabs:Safari@13.0:macOS 10.13' tests/*.testcafe.js",
+    "test:chrome": "testcafe chrome:headless tests/*.testcafe.js",
+    "test:safari": "testcafe safari tests/*.testcafe.js"
+  },
+  "keywords": [],
+  "author": "Daniel Schwartz <daniel.schwartz@applitools.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@applitools/eyes-testcafe": "^2.0.0-beta.11",
+    "testcafe": "^1.7.1"
+  },
+  "devDependencies": {
+    "testcafe-browser-provider-saucelabs": "^1.8.0"
+  }
+}
